@@ -39,6 +39,6 @@ public class Controller {
         Employee employee = new Employee();
         employee.setTitle("Test V2");
         employee = employeeRepository.save(employee);
-        return "Hello from RestShop2 V3, created id "+employee.getId();
+        return "Hello from RestShop2 V4, created id "+employee.getId();
     }
 }
