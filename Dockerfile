@@ -1,5 +1,5 @@
 FROM openjdk:17-alpine3.14
 ARG JAR_FILE=target/*.jar
-COPY ./target/restSqlShopApi-0.0.1-SNAPSHOT.jar restSqlShopApi.jar
+COPY ./target/app-0.0.1-SNAPSHOT.jar app.jar
 #EXPOSE 8080
-ENTRYPOINT ["java", "-jar", "/restSqlShopApi.jar"]
+ENTRYPOINT ["java", "-jar", "/app.jar"]
